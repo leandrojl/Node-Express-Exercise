@@ -1,5 +1,4 @@
 # Node-Express-Exercise
-# Argentina Programa 4.0 por UTN Mendo
 
 ## Exercise:
 
