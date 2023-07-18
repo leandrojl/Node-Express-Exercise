@@ -1,4 +1,4 @@
-const express = require('express'); //import express
+const express = require('express'); //import express from node modules
 const path = require('path');
 const app = express(); // asign express to a variable
 
@@ -7,7 +7,7 @@ app.set('view engine', 'mustache');
 app.engine('mustache', require('hogan-middleware').__express);
 //http get function
 app.get('/',(req, res, next)=>{
-    res.send('Hello!!');
+    res.send('This is a new server using Express');
 })
 
 //get function for a json object
